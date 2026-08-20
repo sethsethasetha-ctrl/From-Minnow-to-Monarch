@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Neon Exit Puzzle is a colorful slide-and-match logic game for iPhone and iPad.">
+  <title>Neon Exit Puzzle</title>
+  <style>
+    :root { color-scheme: dark; --ink: #fbfbff; --muted: #c6c8eb; --cyan: #70eaf5; --panel: rgba(33, 23, 76, .78); --edge: rgba(118, 187, 255, .38); }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-width: 320px; color: var(--ink); font-family: Avenir Next, Avenir, Helvetica, Arial, sans-serif; background: radial-gradient(circle at 12% 0%, #392b7e 0, transparent 32rem), linear-gradient(150deg, #090521, #181044 54%, #0d0930); }
+    main { width: min(1120px, calc(100% - 40px)); margin: auto; }
+    .hero { min-height: 450px; padding: 94px 0 58px; display: grid; grid-template-columns: 1.08fr .92fr; align-items: center; gap: 36px; }
+    h1 { margin: 0; font-size: clamp(3rem, 7vw, 5.8rem); line-height: .92; letter-spacing: -.065em; }
+    h2 { margin: 0 0 14px; font-size: clamp(1.65rem, 3vw, 2.3rem); }
+    h3 { margin: 0 0 8px; font-size: 1.12rem; }
+    p { color: var(--muted); font-size: 1.06rem; line-height: 1.72; }
+    .eyebrow { color: var(--cyan); font-size: .82rem; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; }
+    .card { padding: 31px; border: 1px solid var(--edge); border-radius: 24px; background: var(--panel); box-shadow: 0 18px 62px rgba(0, 0, 0, .27); }
+    .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin: 43px 0 68px; }
+    .features article { padding: 23px; border: 1px solid rgba(118, 125, 235, .3); border-radius: 20px; background: rgba(31, 20, 71, .72); }
+    .features p { margin: 0; font-size: .95rem; }
+    .gallery { display: grid; grid-template-columns: repeat(5, minmax(158px, 1fr)); gap: 14px; overflow-x: auto; padding: 5px 0 62px; }
+    .gallery img { display: block; width: 100%; min-width: 158px; border: 1px solid rgba(113, 226, 239, .45); border-radius: 18px; box-shadow: 0 12px 35px rgba(0, 0, 0, .35); }
+    footer { padding: 28px 0 42px; border-top: 1px solid rgba(151, 158, 255, .28); color: var(--muted); font-size: .92rem; }
+    a { color: var(--cyan); }
+    @media (max-width: 700px) { .hero { padding-top: 64px; grid-template-columns: 1fr; } .features { grid-template-columns: 1fr; margin-top: 28px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Slide · Match · Clear</p>
+        <h1>Neon Exit<br>Puzzle</h1>
+        <p>Find the route, move every block, and clear the board. Neon Exit Puzzle is a bright logic game built around calm planning and satisfying final moves.</p>
+      </div>
+      <div class="card">
+        <h2>Every board has a way out.</h2>
+        <p>Guide colorful blocks to matching exits, work around obstacles, open new routes, and collect three stars across 30 carefully designed puzzles.</p>
+      </div>
+    </section>
+    <section class="features" aria-label="Game features">
+      <article><h3>Plan each slide</h3><p>Move one space at a time and make every route count.</p></article>
+      <article><h3>Match every exit</h3><p>Clear the board by guiding each color to its matching destination.</p></article>
+      <article><h3>Play your way</h3><p>Track stars and best scores with music, sound, haptics, and reduced-motion options.</p></article>
+    </section>
+    <section aria-labelledby="gallery-title">
+      <p class="eyebrow">In game</p>
+      <h2 id="gallery-title">A colorful path through every puzzle</h2>
+      <div class="gallery">
+        <img src="web-assets/screenshots/neon-exit-puzzle-iphone-6-5-01.jpg" alt="Neon Exit Puzzle home screen" loading="lazy">
+        <img src="web-assets/screenshots/neon-exit-puzzle-iphone-6-5-02.jpg" alt="Neon Exit Puzzle puzzle board" loading="lazy">
+        <img src="web-assets/screenshots/neon-exit-puzzle-iphone-6-5-03.jpg" alt="Neon Exit Puzzle obstacle board" loading="lazy">
+        <img src="web-assets/screenshots/neon-exit-puzzle-iphone-6-5-04.jpg" alt="Neon Exit Puzzle level clear screen" loading="lazy">
+        <img src="web-assets/screenshots/neon-exit-puzzle-iphone-6-5-05.jpg" alt="Neon Exit Puzzle level selection" loading="lazy">
+      </div>
+    </section>
+    <footer>© 2026 Edy. All rights reserved.<br>Support: <a href="mailto:hengbozail@163.com">hengbozail@163.com</a> · <a href="privacy.html">Privacy Policy</a></footer>
+  </main>
+</body>
+</html>
